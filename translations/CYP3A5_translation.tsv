@@ -1,4 +1,4 @@
-GENE:CYP3A5	4/6/2016																								
+GENE:CYP3A5	9/27/2016																								
 	Nucleotide change per gene from http://www.cypalleles.ki.se/cyp3a5.htm	3699C>T	6986A>G	12952T>C	14665A>G	14690G>A	19386G>A	27131_27132insT	27289C>A																
 	Effect on protein (NP_000768.1)	R28C	Splicing defect	Splicing defect	Q200R	Splicing defect	A337T	346Frameshift	T398N																
 	Position at NC_000007.14 (Homo sapiens chromosome 7, GRCh38.p2)	g.99676198G>A	g.99672916T>C	g.99666950A>G	g.99665237T>C	g.99665212C>T	g.99660516C>T	g.99652770_99652771insA	g.99652613G>T																
@@ -7,13 +7,13 @@ GENE:CYP3A5	4/6/2016
 Allele	Allele Functional Status									African Allele Frequency	African American Allele Frequency	Caucasian (European + North American) Allele Frequency	Middle Eastern Allele Frequency	East Asian Allele Frequency	South/Central Asian Allele Frequency	Americas Allele Frequency	Oceanian Allele Frequency								
 *1	Normal function	G	T	A	T	C	C	del	G																
 *2	Unknown/Uncertain function								T																
-*3	No function		C																						
+*3	No function		C				Y																		
 *4	Unknown/Uncertain function				C																				
 *5	Unknown/Uncertain function			G																					
 *6	No function					T																			
 *7	No function							insA																	
 *8	Unknown/Uncertain function	A																							
-*9	Unknown/Uncertain function		Y				T																		
+*9	Unknown/Uncertain function						T																		
 																									
 NOTES:																									
 rsID=RefSNP accession ID number (http://www.ncbi.nlm.nih.gov/snp/)																									

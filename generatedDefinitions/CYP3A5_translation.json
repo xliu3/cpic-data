@@ -1,7 +1,7 @@
 {
   "formatVersion": "1",
   "contentVersion": null,
-  "modificationDate": "Apr 6, 2016 12:00:00 AM",
+  "modificationDate": "Sep 27, 2016 12:00:00 AM",
   "gene": "CYP3A5",
   "orientation": "reverse",
   "chromosome": "chr7",
@@ -171,7 +171,7 @@
         null,
         null,
         null,
-        null,
+        "Y",
         null,
         null
       ],
@@ -317,7 +317,7 @@
       "function": "Unknown/Uncertain function",
       "alleles": [
         null,
-        "Y",
+        null,
         null,
         null,
         null,
