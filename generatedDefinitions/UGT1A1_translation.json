@@ -1,7 +1,7 @@
 {
   "formatVersion": "1",
   "contentVersion": null,
-  "modificationDate": "Apr 14, 2016 12:00:00 AM",
+  "modificationDate": "Oct 21, 2016 12:00:00 AM",
   "gene": "UGT1A1",
   "orientation": "forward",
   "chromosome": "chr2",
@@ -52,14 +52,14 @@
       "referenceRepeat": null
     },
     {
-      "position": 233760234,
+      "position": 233760233,
       "rsid": null,
-      "chromosomeHgvsName": "g.233760234",
-      "geneHgvsName": "g.175491",
+      "chromosomeHgvsName": "g.233760233",
+      "geneHgvsName": "g.175490",
       "proteinNote": "Promoter region",
-      "resourceNote": "A(TA)5TAA, A(TA)6TAA, A(TA)7TAA, A(TA)8TAA",
-      "type": "REPEAT",
-      "referenceRepeat": "A(TA)6TAA"
+      "resourceNote": "CA(TA)5TAA, CA(TA)6TAA, CA(TA)7TAA, CA(TA)8TAA",
+      "type": "SNP",
+      "referenceRepeat": null
     },
     {
       "position": 233760498,
@@ -90,7 +90,7 @@
       "alleles": [
         "T",
         "C",
-        "A(TA)6TAA",
+        "CAT",
         "G",
         "C"
       ],
@@ -156,7 +156,7 @@
       "alleles": [
         null,
         null,
-        "A(TA)7TAA",
+        "CATAT",
         null,
         null
       ],
@@ -178,7 +178,7 @@
       "alleles": [
         null,
         null,
-        "A(TA)5TAA",
+        "C",
         null,
         null
       ],
@@ -200,7 +200,7 @@
       "alleles": [
         null,
         null,
-        "A(TA)8TAA",
+        "CATATAT",
         null,
         null
       ],
