@@ -21,7 +21,8 @@ public class CpicTranslationSheet {
   private static final Logger sf_logger = LoggerFactory.getLogger(MethodHandles.lookup().lookupClass());
   private static final String sf_translationsSheetName = "Translations";
   private static final int sf_excelCharWidth = 256;
-  private static final int sf_firstColWidth = 15;
+  private static final int sf_secondColWidth = 35;
+  private static final int sf_defaultColWidth = 15;
   private static final int sf_firstDataRowIndex = 7;
 
   private Path m_pathToSheet;
@@ -68,9 +69,20 @@ public class CpicTranslationSheet {
 
     CellStyle headStyle = workbook.createCellStyle();
     headStyle.setFont(headFont);
+    headStyle.setAlignment(HorizontalAlignment.CENTER);
+    headStyle.setWrapText(true);
+    headStyle.setVerticalAlignment(VerticalAlignment.BOTTOM);
+
+    CellStyle nameStyle = workbook.createCellStyle();
+    nameStyle.setFont(headFont);
+    nameStyle.setAlignment(HorizontalAlignment.LEFT);
+
+    CellStyle defaultStyle = workbook.createCellStyle();
+    defaultStyle.setAlignment(HorizontalAlignment.CENTER);
 
     Sheet sheet = workbook.createSheet(sf_translationsSheetName);
-    sheet.setColumnWidth(0, makeColWidth(sf_firstColWidth));
+    sheet.setDefaultColumnWidth(sf_defaultColWidth);
+    sheet.setColumnWidth(1, makeColWidth(sf_secondColWidth));
 
     sheet.createFreezePane(1, sf_firstDataRowIndex);
 
@@ -81,11 +93,20 @@ public class CpicTranslationSheet {
         Row row = sheet.createRow(rowNum++);
         String[] fields = line.split("\\t");
 
+        if (rowNum <= 5) {
+          row.setHeight((short) 950);
+          row.setRowStyle(headStyle);
+        }
+
         for (int i=0; i<fields.length; i++) {
           Cell cell = row.createCell(i);
           cell.setCellValue(fields[i]);
-          if (rowNum < sf_firstDataRowIndex || i==0) {
+          if (rowNum < sf_firstDataRowIndex) {
             cell.setCellStyle(headStyle);
+          } else if (rowNum >= sf_firstDataRowIndex && i==0) {
+            cell.setCellStyle(nameStyle);
+          } else {
+            cell.setCellStyle(defaultStyle);
           }
         }
       }
