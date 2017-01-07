@@ -1,4 +1,4 @@
-GENE: CYP2C19	6/15/2016																																																
+GENE: CYP2C19	1/6/2017																																																
 	Nucleotide change to gene from http://www.cypalleles.ki.se/cyp2c19.htm	-2030C>T	-2020C>A	-1439T>C	-1041G>A	-806C>T	-13G>A	1A>G	7C>T	10T>C	50T>C	55A>C	83A>T	151A>G	12401C>T	12416C>T	12455G>C	12480A>G	12662A>G	12711T>C	12748G>A	12784G>A	12802G>A	17869G>C	17874G>A	17948G>A	19153C>T	19154G>A	19239G>A	19294T>A	80156G>A	80174G>A	80290G>A	87259A>G	87290C>T	90033C>T	90060C>T	90080C>G	90209A>C										
 	Effect on protein (NP_000760.1)	5' region	5' region	5' region	5' region	5' region	5' region	M1V	P3S	F4L	L17P	I19L	K28I	S51G	R73C	H78Y	G91R	H99R	splicing defect	W120R	R132Q	R144H	R150H	R186P	D188N	W212X	P227L	splicing defect	D256N	splicing defect	R329H	R335Q	V374I	K399=	R410C	R433W	R442C	F448L	X491C (26 extra AA)										
 	Position at NC_000010.11 (Homo sapiens chromosome 10, GRCh38.p2)	g.94760676C>T	g.94760686C>A	g.94761267T>C	g.94761665G>A	g.94761900C>T	g.94762693G>A	g.94762706A>G	g.94762712C>T	g.94762715T>C	g.94762755T>C	g.94762760A>C	g.94762788A>T	g.94762856A>G	g.94775106C>T	g.94775121C>T	g.94775160G>C	g.94775185A>G	g.94775367A>G	g.94775416T>C	g.94775453G>A	g.94775489G>A	g.94775507G>A	g.94780574G>C	g.94780579G>A	g.94780653G>A	g.94781858C>T	g.94781859G>A	g.94781944G>A	g.94781999T>A	g.94842861G>A	g.94842879G>A	g.94842995G>A	g.94849964A>G	g.94849995C>T	g.94852738C>T	g.94852765C>T	g.94852785C>G	g.94852914A>C										
@@ -6,7 +6,7 @@ GENE: CYP2C19	6/15/2016
 	rsID	rs113164681	rs111490789	rs17878739	rs7902257	rs12248560	rs367543001	rs28399504	rs367543002	rs367543003	rs55752064	rs17882687			rs145328984		rs118203756		rs12769205	rs41291556	rs72552267 	rs17884712	rs58973490	rs140278421	rs370803989	rs4986893	rs6413438	rs4244285		rs72558186	rs138142612	rs118203757	rs113934938	rs377184510	rs17879685	rs56337013	rs192154563	rs118203759	rs55640102										
 Allele	Allele Functional Status																																							African Allele Frequency	African American Allele Frequency	Caucasian (European + North American) Allele Frequency	Middle Eastern Allele Frequency	East Asian Allele Frequency	South/Central Asian Allele Frequency	Americas Allele Frequency	Oceanian Allele Frequency		
 *1	Normal function	C	C	T	G	C	G	A	C	T	T	A	A	A	C	C	G	A	A	T	G	G	G	G	G	G	C	G	G	T	G	G	G	A	C	C	C	C	A	0.331	0.570	0.621	0.648	0.576	0.485	0.670	0.286		
-*2	No function																		R									A												0.142	0.183	0.146	0.131	0.293	0.331	0.131	0.549		
+*2	No function																		G									A												0.142	0.183	0.146	0.131	0.293	0.331	0.131	0.549		
 *3	No function																									A														0.008	0.003	0.006	0.026	0.086	0.016	0.003	0.139		
 *4A	No function							G																																0.000	0.000	0.003		0.001	0.000	0.000			
 *4B	No function					T		G																																	0.000								
