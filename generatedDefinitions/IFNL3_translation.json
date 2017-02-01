@@ -27,6 +27,7 @@
   ],
   "variants": [
     {
+      "chromosome": "chr19",
       "position": 39248147,
       "rsid": "rs12979860",
       "chromosomeHgvsName": "g.39248147C>T",

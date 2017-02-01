@@ -33,6 +33,7 @@
   ],
   "variants": [
     {
+      "chromosome": "chr10",
       "position": 94760676,
       "rsid": "rs113164681",
       "chromosomeHgvsName": "g.94760676C>T",
@@ -43,6 +44,7 @@
       "referenceRepeat": null
     },
     {
+      "chromosome": "chr10",
       "position": 94760686,
       "rsid": "rs111490789",
       "chromosomeHgvsName": "g.94760686C>A",
@@ -53,6 +55,7 @@
       "referenceRepeat": null
     },
     {
+      "chromosome": "chr10",
       "position": 94761267,
       "rsid": "rs17878739",
       "chromosomeHgvsName": "g.94761267T>C",
@@ -63,6 +66,7 @@
       "referenceRepeat": null
     },
     {
+      "chromosome": "chr10",
       "position": 94761665,
       "rsid": "rs7902257",
       "chromosomeHgvsName": "g.94761665G>A",
@@ -73,6 +77,7 @@
       "referenceRepeat": null
     },
     {
+      "chromosome": "chr10",
       "position": 94761900,
       "rsid": "rs12248560",
       "chromosomeHgvsName": "g.94761900C>T",
@@ -83,6 +88,7 @@
       "referenceRepeat": null
     },
     {
+      "chromosome": "chr10",
       "position": 94762693,
       "rsid": "rs367543001",
       "chromosomeHgvsName": "g.94762693G>A",
@@ -93,6 +99,7 @@
       "referenceRepeat": null
     },
     {
+      "chromosome": "chr10",
       "position": 94762706,
       "rsid": "rs28399504",
       "chromosomeHgvsName": "g.94762706A>G",
@@ -103,6 +110,7 @@
       "referenceRepeat": null
     },
     {
+      "chromosome": "chr10",
       "position": 94762712,
       "rsid": "rs367543002",
       "chromosomeHgvsName": "g.94762712C>T",
@@ -113,6 +121,7 @@
       "referenceRepeat": null
     },
     {
+      "chromosome": "chr10",
       "position": 94762715,
       "rsid": "rs367543003",
       "chromosomeHgvsName": "g.94762715T>C",
@@ -123,6 +132,7 @@
       "referenceRepeat": null
     },
     {
+      "chromosome": "chr10",
       "position": 94762755,
       "rsid": "rs55752064",
       "chromosomeHgvsName": "g.94762755T>C",
@@ -133,6 +143,7 @@
       "referenceRepeat": null
     },
     {
+      "chromosome": "chr10",
       "position": 94762760,
       "rsid": "rs17882687",
       "chromosomeHgvsName": "g.94762760A>C",
@@ -143,6 +154,7 @@
       "referenceRepeat": null
     },
     {
+      "chromosome": "chr10",
       "position": 94762788,
       "rsid": null,
       "chromosomeHgvsName": "g.94762788A>T",
@@ -153,6 +165,7 @@
       "referenceRepeat": null
     },
     {
+      "chromosome": "chr10",
       "position": 94762856,
       "rsid": null,
       "chromosomeHgvsName": "g.94762856A>G",
@@ -163,6 +176,7 @@
       "referenceRepeat": null
     },
     {
+      "chromosome": "chr10",
       "position": 94775106,
       "rsid": "rs145328984",
       "chromosomeHgvsName": "g.94775106C>T",
@@ -173,6 +187,7 @@
       "referenceRepeat": null
     },
     {
+      "chromosome": "chr10",
       "position": 94775121,
       "rsid": null,
       "chromosomeHgvsName": "g.94775121C>T",
@@ -183,6 +198,7 @@
       "referenceRepeat": null
     },
     {
+      "chromosome": "chr10",
       "position": 94775160,
       "rsid": "rs118203756",
       "chromosomeHgvsName": "g.94775160G>C",
@@ -193,6 +209,7 @@
       "referenceRepeat": null
     },
     {
+      "chromosome": "chr10",
       "position": 94775185,
       "rsid": null,
       "chromosomeHgvsName": "g.94775185A>G",
@@ -203,6 +220,7 @@
       "referenceRepeat": null
     },
     {
+      "chromosome": "chr10",
       "position": 94775367,
       "rsid": "rs12769205",
       "chromosomeHgvsName": "g.94775367A>G",
@@ -213,6 +231,7 @@
       "referenceRepeat": null
     },
     {
+      "chromosome": "chr10",
       "position": 94775416,
       "rsid": "rs41291556",
       "chromosomeHgvsName": "g.94775416T>C",
@@ -223,6 +242,7 @@
       "referenceRepeat": null
     },
     {
+      "chromosome": "chr10",
       "position": 94775453,
       "rsid": "rs72552267",
       "chromosomeHgvsName": "g.94775453G>A",
@@ -233,6 +253,7 @@
       "referenceRepeat": null
     },
     {
+      "chromosome": "chr10",
       "position": 94775489,
       "rsid": "rs17884712",
       "chromosomeHgvsName": "g.94775489G>A",
@@ -243,6 +264,7 @@
       "referenceRepeat": null
     },
     {
+      "chromosome": "chr10",
       "position": 94775507,
       "rsid": "rs58973490",
       "chromosomeHgvsName": "g.94775507G>A",
@@ -253,6 +275,7 @@
       "referenceRepeat": null
     },
     {
+      "chromosome": "chr10",
       "position": 94780574,
       "rsid": "rs140278421",
       "chromosomeHgvsName": "g.94780574G>C",
@@ -263,6 +286,7 @@
       "referenceRepeat": null
     },
     {
+      "chromosome": "chr10",
       "position": 94780579,
       "rsid": "rs370803989",
       "chromosomeHgvsName": "g.94780579G>A",
@@ -273,6 +297,7 @@
       "referenceRepeat": null
     },
     {
+      "chromosome": "chr10",
       "position": 94780653,
       "rsid": "rs4986893",
       "chromosomeHgvsName": "g.94780653G>A",
@@ -283,6 +308,7 @@
       "referenceRepeat": null
     },
     {
+      "chromosome": "chr10",
       "position": 94781858,
       "rsid": "rs6413438",
       "chromosomeHgvsName": "g.94781858C>T",
@@ -293,6 +319,7 @@
       "referenceRepeat": null
     },
     {
+      "chromosome": "chr10",
       "position": 94781859,
       "rsid": "rs4244285",
       "chromosomeHgvsName": "g.94781859G>A",
@@ -303,6 +330,7 @@
       "referenceRepeat": null
     },
     {
+      "chromosome": "chr10",
       "position": 94781944,
       "rsid": null,
       "chromosomeHgvsName": "g.94781944G>A",
@@ -313,6 +341,7 @@
       "referenceRepeat": null
     },
     {
+      "chromosome": "chr10",
       "position": 94781999,
       "rsid": "rs72558186",
       "chromosomeHgvsName": "g.94781999T>A",
@@ -323,6 +352,7 @@
       "referenceRepeat": null
     },
     {
+      "chromosome": "chr10",
       "position": 94842861,
       "rsid": "rs138142612",
       "chromosomeHgvsName": "g.94842861G>A",
@@ -333,6 +363,7 @@
       "referenceRepeat": null
     },
     {
+      "chromosome": "chr10",
       "position": 94842879,
       "rsid": "rs118203757",
       "chromosomeHgvsName": "g.94842879G>A",
@@ -343,6 +374,7 @@
       "referenceRepeat": null
     },
     {
+      "chromosome": "chr10",
       "position": 94842995,
       "rsid": "rs113934938",
       "chromosomeHgvsName": "g.94842995G>A",
@@ -353,6 +385,7 @@
       "referenceRepeat": null
     },
     {
+      "chromosome": "chr10",
       "position": 94849964,
       "rsid": "rs377184510",
       "chromosomeHgvsName": "g.94849964A>G",
@@ -363,6 +396,7 @@
       "referenceRepeat": null
     },
     {
+      "chromosome": "chr10",
       "position": 94849995,
       "rsid": "rs17879685",
       "chromosomeHgvsName": "g.94849995C>T",
@@ -373,6 +407,7 @@
       "referenceRepeat": null
     },
     {
+      "chromosome": "chr10",
       "position": 94852738,
       "rsid": "rs56337013",
       "chromosomeHgvsName": "g.94852738C>T",
@@ -383,6 +418,7 @@
       "referenceRepeat": null
     },
     {
+      "chromosome": "chr10",
       "position": 94852765,
       "rsid": "rs192154563",
       "chromosomeHgvsName": "g.94852765C>T",
@@ -393,6 +429,7 @@
       "referenceRepeat": null
     },
     {
+      "chromosome": "chr10",
       "position": 94852785,
       "rsid": "rs118203759",
       "chromosomeHgvsName": "g.94852785C>G",
@@ -403,6 +440,7 @@
       "referenceRepeat": null
     },
     {
+      "chromosome": "chr10",
       "position": 94852914,
       "rsid": "rs55640102",
       "chromosomeHgvsName": "g.94852914A>C",

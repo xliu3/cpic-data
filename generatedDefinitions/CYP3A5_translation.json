@@ -30,6 +30,7 @@
   ],
   "variants": [
     {
+      "chromosome": "chr7",
       "position": 99676198,
       "rsid": "rs55817950",
       "chromosomeHgvsName": "g.99676198G>A",
@@ -40,6 +41,7 @@
       "referenceRepeat": null
     },
     {
+      "chromosome": "chr7",
       "position": 99672916,
       "rsid": "rs776746",
       "chromosomeHgvsName": "g.99672916T>C",
@@ -50,6 +52,7 @@
       "referenceRepeat": null
     },
     {
+      "chromosome": "chr7",
       "position": 99666950,
       "rsid": "rs55965422",
       "chromosomeHgvsName": "g.99666950A>G",
@@ -60,6 +63,7 @@
       "referenceRepeat": null
     },
     {
+      "chromosome": "chr7",
       "position": 99665237,
       "rsid": "rs56411402",
       "chromosomeHgvsName": "g.99665237T>C",
@@ -70,6 +74,7 @@
       "referenceRepeat": null
     },
     {
+      "chromosome": "chr7",
       "position": 99665212,
       "rsid": "rs10264272",
       "chromosomeHgvsName": "g.99665212C>T",
@@ -80,6 +85,7 @@
       "referenceRepeat": null
     },
     {
+      "chromosome": "chr7",
       "position": 99660516,
       "rsid": "rs28383479",
       "chromosomeHgvsName": "g.99660516C>T",
@@ -90,6 +96,7 @@
       "referenceRepeat": null
     },
     {
+      "chromosome": "chr7",
       "position": 99652770,
       "rsid": "rs41303343",
       "chromosomeHgvsName": "g.99652770_99652771insA",
@@ -100,6 +107,7 @@
       "referenceRepeat": null
     },
     {
+      "chromosome": "chr7",
       "position": 99652613,
       "rsid": "rs28365083",
       "chromosomeHgvsName": "g.99652613G>T",

@@ -32,6 +32,7 @@
   ],
   "variants": [
     {
+      "chromosome": "chr2",
       "position": 233757013,
       "rsid": "rs4124874",
       "chromosomeHgvsName": "g.233757013T>G",
@@ -42,6 +43,7 @@
       "referenceRepeat": null
     },
     {
+      "chromosome": "chr2",
       "position": 233759924,
       "rsid": "rs887829",
       "chromosomeHgvsName": "g.233759924C>T",
@@ -52,6 +54,7 @@
       "referenceRepeat": null
     },
     {
+      "chromosome": "chr2",
       "position": 233760233,
       "rsid": null,
       "chromosomeHgvsName": "g.233760233",
@@ -62,6 +65,7 @@
       "referenceRepeat": null
     },
     {
+      "chromosome": "chr2",
       "position": 233760498,
       "rsid": "rs4148323",
       "chromosomeHgvsName": "g.233760498G>A",
@@ -72,6 +76,7 @@
       "referenceRepeat": null
     },
     {
+      "chromosome": "chr2",
       "position": 233760973,
       "rsid": "rs35350960",
       "chromosomeHgvsName": "g.233760973C>A",

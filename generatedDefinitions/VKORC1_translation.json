@@ -27,6 +27,7 @@
   ],
   "variants": [
     {
+      "chromosome": "chr16",
       "position": 31096368,
       "rsid": "rs9923231",
       "chromosomeHgvsName": "g.31096368C>T",

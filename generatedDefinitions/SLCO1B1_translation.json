@@ -29,6 +29,7 @@
   ],
   "variants": [
     {
+      "chromosome": "chr12",
       "position": 21130388,
       "rsid": "rs4149015",
       "chromosomeHgvsName": "g.21130388G>A",
@@ -39,6 +40,7 @@
       "referenceRepeat": null
     },
     {
+      "chromosome": "chr12",
       "position": 21172734,
       "rsid": "rs139257324",
       "chromosomeHgvsName": "g.21172734C>T",
@@ -49,6 +51,7 @@
       "referenceRepeat": null
     },
     {
+      "chromosome": "chr12",
       "position": 21172776,
       "rsid": "rs373327528",
       "chromosomeHgvsName": "g.21172776G>A",
@@ -59,6 +62,7 @@
       "referenceRepeat": null
     },
     {
+      "chromosome": "chr12",
       "position": 21172782,
       "rsid": "rs56101265",
       "chromosomeHgvsName": "g.21172782T>C",
@@ -69,6 +73,7 @@
       "referenceRepeat": null
     },
     {
+      "chromosome": "chr12",
       "position": 21174595,
       "rsid": "rs56061388",
       "chromosomeHgvsName": "g.21174595T>C",
@@ -79,6 +84,7 @@
       "referenceRepeat": null
     },
     {
+      "chromosome": "chr12",
       "position": 21176804,
       "rsid": "rs2306283",
       "chromosomeHgvsName": "g.21176804A>G",
@@ -89,6 +95,7 @@
       "referenceRepeat": null
     },
     {
+      "chromosome": "chr12",
       "position": 21176827,
       "rsid": "rs11045818",
       "chromosomeHgvsName": "g.21176827G>A",
@@ -99,6 +106,7 @@
       "referenceRepeat": null
     },
     {
+      "chromosome": "chr12",
       "position": 21176868,
       "rsid": "rs2306282",
       "chromosomeHgvsName": "g.21176868A>G",
@@ -109,6 +117,7 @@
       "referenceRepeat": null
     },
     {
+      "chromosome": "chr12",
       "position": 21176879,
       "rsid": "rs11045819",
       "chromosomeHgvsName": "g.21176879C>A",
@@ -119,6 +128,7 @@
       "referenceRepeat": null
     },
     {
+      "chromosome": "chr12",
       "position": 21176883,
       "rsid": "rs72559745",
       "chromosomeHgvsName": "g.21176883A>G",
@@ -129,6 +139,7 @@
       "referenceRepeat": null
     },
     {
+      "chromosome": "chr12",
       "position": 21178615,
       "rsid": "rs4149056",
       "chromosomeHgvsName": "g.21178615T>C",
@@ -139,6 +150,7 @@
       "referenceRepeat": null
     },
     {
+      "chromosome": "chr12",
       "position": 21178665,
       "rsid": "rs4149057",
       "chromosomeHgvsName": "g.21178665T>C",
@@ -149,6 +161,7 @@
       "referenceRepeat": null
     },
     {
+      "chromosome": "chr12",
       "position": 21178672,
       "rsid": "rs72559746",
       "chromosomeHgvsName": "g.21178672T>G",
@@ -159,6 +172,7 @@
       "referenceRepeat": null
     },
     {
+      "chromosome": "chr12",
       "position": 21178691,
       "rsid": "rs2291075",
       "chromosomeHgvsName": "g.21178691C>T",
@@ -169,6 +183,7 @@
       "referenceRepeat": null
     },
     {
+      "chromosome": "chr12",
       "position": 21178957,
       "rsid": "rs79135870",
       "chromosomeHgvsName": "g.21178957A>G",
@@ -179,6 +194,7 @@
       "referenceRepeat": null
     },
     {
+      "chromosome": "chr12",
       "position": 21196951,
       "rsid": "rs11045852",
       "chromosomeHgvsName": "g.21196951A>G",
@@ -189,6 +205,7 @@
       "referenceRepeat": null
     },
     {
+      "chromosome": "chr12",
       "position": 21196976,
       "rsid": "rs11045853",
       "chromosomeHgvsName": "g.21196976G>A",
@@ -199,6 +216,7 @@
       "referenceRepeat": null
     },
     {
+      "chromosome": "chr12",
       "position": 21200595,
       "rsid": "rs55901008",
       "chromosomeHgvsName": "g.21200595T>C",
@@ -209,6 +227,7 @@
       "referenceRepeat": null
     },
     {
+      "chromosome": "chr12",
       "position": 21202553,
       "rsid": null,
       "chromosomeHgvsName": "g.21202553T>G",
@@ -219,6 +238,7 @@
       "referenceRepeat": null
     },
     {
+      "chromosome": "chr12",
       "position": 21202555,
       "rsid": "rs59113707",
       "chromosomeHgvsName": "g.21202555C>G",
@@ -229,6 +249,7 @@
       "referenceRepeat": null
     },
     {
+      "chromosome": "chr12",
       "position": 21202649,
       "rsid": "rs56387224",
       "chromosomeHgvsName": "g.21202649A>G",
@@ -239,6 +260,7 @@
       "referenceRepeat": null
     },
     {
+      "chromosome": "chr12",
       "position": 21202664,
       "rsid": "rs142965323",
       "chromosomeHgvsName": "g.21202664G>A",
@@ -249,6 +271,7 @@
       "referenceRepeat": null
     },
     {
+      "chromosome": "chr12",
       "position": 21205921,
       "rsid": "rs72559748",
       "chromosomeHgvsName": "g.21205921A>G",
@@ -259,6 +282,7 @@
       "referenceRepeat": null
     },
     {
+      "chromosome": "chr12",
       "position": 21205999,
       "rsid": "rs59502379",
       "chromosomeHgvsName": "g.21205999G>C",
@@ -269,6 +293,7 @@
       "referenceRepeat": null
     },
     {
+      "chromosome": "chr12",
       "position": 21239042,
       "rsid": "rs34671512",
       "chromosomeHgvsName": "g.21239042A>C",
@@ -279,6 +304,7 @@
       "referenceRepeat": null
     },
     {
+      "chromosome": "chr12",
       "position": 21239077,
       "rsid": "rs56199088",
       "chromosomeHgvsName": "g.21239077A>G",
@@ -289,6 +315,7 @@
       "referenceRepeat": null
     },
     {
+      "chromosome": "chr12",
       "position": 21239113,
       "rsid": "rs55737008",
       "chromosomeHgvsName": "g.21239113A>G",
@@ -299,6 +326,7 @@
       "referenceRepeat": null
     },
     {
+      "chromosome": "chr12",
       "position": 21239145,
       "rsid": "rs200995543",
       "chromosomeHgvsName": "g.21239145C>T",
@@ -309,6 +337,7 @@
       "referenceRepeat": null
     },
     {
+      "chromosome": "chr12",
       "position": 21239158,
       "rsid": "rs140790673",
       "chromosomeHgvsName": "g.21239158C>T",

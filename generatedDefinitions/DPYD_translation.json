@@ -1,7 +1,7 @@
 {
   "formatVersion": "1",
   "contentVersion": null,
-  "modificationDate": "Apr 5, 2016 12:00:00 AM",
+  "modificationDate": "Jan 2, 2017 12:00:00 AM",
   "gene": "DPYD",
   "orientation": "reverse",
   "chromosome": "chr1",
@@ -31,6 +31,7 @@
   ],
   "variants": [
     {
+      "chromosome": "chr1",
       "position": 97450058,
       "rsid": "rs3918290",
       "chromosomeHgvsName": "g.97450058C>T",
@@ -41,6 +42,7 @@
       "referenceRepeat": null
     },
     {
+      "chromosome": "chr1",
       "position": 97883352,
       "rsid": "rs80081766",
       "chromosomeHgvsName": "g.97883352C>T",
@@ -51,6 +53,7 @@
       "referenceRepeat": null
     },
     {
+      "chromosome": "chr1",
       "position": 97883329,
       "rsid": "rs1801265",
       "chromosomeHgvsName": "g.97883329A>G",
@@ -61,6 +64,7 @@
       "referenceRepeat": null
     },
     {
+      "chromosome": "chr1",
       "position": 97740415,
       "rsid": "rs72549309",
       "chromosomeHgvsName": "g.97740415_97740418delATGA",
@@ -71,6 +75,7 @@
       "referenceRepeat": null
     },
     {
+      "chromosome": "chr1",
       "position": 97691776,
       "rsid": "rs1801266",
       "chromosomeHgvsName": "g.97691776G>A",
@@ -81,6 +86,7 @@
       "referenceRepeat": null
     },
     {
+      "chromosome": "chr1",
       "position": 97593343,
       "rsid": "rs72549306",
       "chromosomeHgvsName": "g.97593343C>A",
@@ -91,6 +97,7 @@
       "referenceRepeat": null
     },
     {
+      "chromosome": "chr1",
       "position": 97573943,
       "rsid": "rs78060119",
       "chromosomeHgvsName": "g.97573943C>A",
@@ -101,6 +108,7 @@
       "referenceRepeat": null
     },
     {
+      "chromosome": "chr1",
       "position": 97515865,
       "rsid": "rs1801158",
       "chromosomeHgvsName": "g.97515865C>T",
@@ -111,6 +119,7 @@
       "referenceRepeat": null
     },
     {
+      "chromosome": "chr1",
       "position": 97515839,
       "rsid": "rs1801159",
       "chromosomeHgvsName": "g.97515839T>C",
@@ -121,6 +130,7 @@
       "referenceRepeat": null
     },
     {
+      "chromosome": "chr1",
       "position": 97515787,
       "rsid": "rs55886062",
       "chromosomeHgvsName": "g.97515787A>C",
@@ -131,6 +141,7 @@
       "referenceRepeat": null
     },
     {
+      "chromosome": "chr1",
       "position": 97450066,
       "rsid": "rs72549303",
       "chromosomeHgvsName": "g.97450066delG",
@@ -141,6 +152,7 @@
       "referenceRepeat": null
     },
     {
+      "chromosome": "chr1",
       "position": 97305364,
       "rsid": "rs1801160",
       "chromosomeHgvsName": "g.97305364C>T",
@@ -151,6 +163,7 @@
       "referenceRepeat": null
     },
     {
+      "chromosome": "chr1",
       "position": 97098598,
       "rsid": "rs1801267",
       "chromosomeHgvsName": "g.97098598C>T",
@@ -161,6 +174,7 @@
       "referenceRepeat": null
     },
     {
+      "chromosome": "chr1",
       "position": 97082391,
       "rsid": "rs67376798",
       "chromosomeHgvsName": "g.97082391T>A",
@@ -171,6 +185,7 @@
       "referenceRepeat": null
     },
     {
+      "chromosome": "chr1",
       "position": 97079071,
       "rsid": "rs1801268",
       "chromosomeHgvsName": "g.97079071C>A",
@@ -663,7 +678,7 @@
       }
     },
     {
-      "name": "rs67376798T/A",
+      "name": "rs67376798A",
       "id": "CA100149.1",
       "function": "No Function",
       "alleles": [
