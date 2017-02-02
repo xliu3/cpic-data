@@ -38,18 +38,40 @@ public class FileValidator {
 
 
   @Test
-  public void testTranslations() {
+  public void testTranslations() throws IOException {
 
-    try {
-      Path dir = getDirectory("translations");
-      Files.newDirectoryStream(dir)
-          .forEach(f -> {
-            sf_logger.info("Checking {}", f.getFileName());
-            if (!f.toString().endsWith(".tsv")) {
-              fail("Non .tsv file in translations directory: " + f);
-            }
-            CuratedDefinitionParser parser = new CuratedDefinitionParser(f);
-            DefinitionFile definitionFile = parser.parse();
+    Path dir = getDirectory("translations");
+    Files.newDirectoryStream(dir)
+        .forEach(f -> {
+          sf_logger.info("Checking {}", f.getFileName());
+          if (!f.toString().endsWith(".tsv")) {
+            fail("Non .tsv file in translations directory: " + f);
+          }
+          CuratedDefinitionParser parser = new CuratedDefinitionParser(f);
+          DefinitionFile definitionFile = parser.parse();
+
+          assertNotNull("Missing gene symbol", definitionFile.getGeneSymbol());
+          assertNotNull("No variant defined", definitionFile.getVariants());
+          assertNotNull("No named alleles defined", definitionFile.getNamedAlleles());
+          assertTrue("No named alleles defined", definitionFile.getNamedAlleles().size() > 0);
+          assertEquals("Number of variants and number of allele positions don't match",
+              definitionFile.getVariants().length, definitionFile.getNamedAlleles().get(0).getAlleles().length);
+        });
+  }
+
+  @Test
+  public void testGeneratedDefinitions() throws IOException {
+
+    Path dir = getDirectory("generatedDefinitions");
+    GeneratedDefinitionSerializer serializer = new GeneratedDefinitionSerializer();
+    Files.newDirectoryStream(dir)
+        .forEach(f -> {
+          sf_logger.info("Checking {}", f.getFileName());
+          if (!f.toString().endsWith(".json")) {
+            fail("Non .json file in translations directory: " + f);
+          }
+          try {
+            DefinitionFile definitionFile = serializer.deserializeFromJson(f);
 
             assertNotNull("Missing gene symbol", definitionFile.getGeneSymbol());
             assertNotNull("No variant defined", definitionFile.getVariants());
@@ -57,41 +79,9 @@ public class FileValidator {
             assertTrue("No named alleles defined", definitionFile.getNamedAlleles().size() > 0);
             assertEquals("Number of variants and number of allele positions don't match",
                 definitionFile.getVariants().length, definitionFile.getNamedAlleles().get(0).getAlleles().length);
-          });
-
-    } catch (Exception e) {
-      fail("Exception while running test: " + e.getMessage());
-    }
-  }
-
-  @Test
-  public void testGeneratedDefinitions() {
-
-    try {
-      Path dir = getDirectory("generatedDefinitions");
-      GeneratedDefinitionSerializer serializer = new GeneratedDefinitionSerializer();
-      Files.newDirectoryStream(dir)
-          .forEach(f -> {
-            sf_logger.info("Checking {}", f.getFileName());
-            if (!f.toString().endsWith(".json")) {
-              fail("Non .json file in translations directory: " + f);
-            }
-            try {
-              DefinitionFile definitionFile = serializer.deserializeFromJson(f);
-
-              assertNotNull("Missing gene symbol", definitionFile.getGeneSymbol());
-              assertNotNull("No variant defined", definitionFile.getVariants());
-              assertNotNull("No named alleles defined", definitionFile.getNamedAlleles());
-              assertTrue("No named alleles defined", definitionFile.getNamedAlleles().size() > 0);
-              assertEquals("Number of variants and number of allele positions don't match",
-                  definitionFile.getVariants().length, definitionFile.getNamedAlleles().get(0).getAlleles().length);
-            } catch (IOException ex) {
-              fail(ex.getMessage());
-            }
-          });
-
-    } catch (Exception e) {
-      fail("Exception while running test: " + e.getMessage());
-    }
+          } catch (IOException ex) {
+            fail(ex.getMessage());
+          }
+        });
   }
 }
